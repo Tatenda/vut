@@ -1,0 +1,49 @@
+.carouselCont {
+	block-size: auto;
+	overflow: hidden;
+}
+
+.servicesList {
+	background-color: rgb(245, 245, 245);
+	ul {
+		padding-block-start: 60px;
+		padding-block-end: 60px;
+		li {
+			list-style: none;
+			.serviceItemContainer {
+				min-block-size: 120px;
+
+				.iconContainer {
+					display: grid;
+					place-items: center;
+					p {
+						font-size: 52px;
+						color: #2C3E50;
+					}
+				}
+
+				.txtContainer{
+					h1 {
+						font-size: 20px;
+					}
+					p {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.selling {
+	padding-block-start: 40px;
+	padding-block-end: 20px;
+	background-color: #2C3E50;
+}
+
+.darkBg {
+	h1 {
+		color: white;
+	}
+	p { color: white; }
+}

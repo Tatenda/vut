@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./styles/all";
+.container {
+	margin-block-start: $header-size;
+
+	.topContainer {
+		background-color: $primary-color;
+		padding-block-start: 20px;
+		padding-block-end: 20px;
+		inline-size: 100vw;
+		color: white;
+	}
+
+	.sectionImgCont {
+		block-size: 240px;
+		overflow: hidden;
+	}
+}
