@@ -1,7 +1,7 @@
 @import "./styles/all";
 .container {
 	margin-block-start: $header-size;
-
+	overflow-x: hidden;
 	.topContainer {
 		background-color: $primary-color;
 		padding-block-start: 20px;
@@ -11,7 +11,7 @@
 	}
 
 	.sectionImgCont {
-		block-size: 240px;
+		max-block-size: 240px;
 		overflow: hidden;
 	}
 }

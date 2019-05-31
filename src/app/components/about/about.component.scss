@@ -1,0 +1,17 @@
+@import "../../../styles/all";
+.vision {
+	// padding: 40px;
+	margin-block-start: 35px;
+	overflow: hidden;
+	.heading {
+		overflow: hidden;
+		font-size: 28px;
+		font-weight: 600;
+		color: $primary-color;
+		border-block-end: 1px solid rgb(240, 240, 240);
+		margin-block-end: 15px;
+	}
+	.text {
+		overflow: hidden;
+	}
+}

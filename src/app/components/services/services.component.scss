@@ -1,0 +1,50 @@
+@import "../../../styles/all";
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.bottomCont {
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+			margin-block-start: 25px;
+			display: grid;
+
+            .serviceHeader {
+                color: $primary-color;
+                border-block-end: 1px solid rgb(240, 240, 240);
+                margin-block-end: 15px;
+
+                .serviceHeaderIcon {
+                    min-block-size: 60px;
+                    display: grid;
+                    place-items: center;
+
+                    p {
+                        font-size: 24px;
+                    }
+                }
+
+                .serviceHeaderTxt {
+                    min-block-size: 60px;
+                    display: grid;
+                    place-items: center;
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+			}
+
+			.serviceTxt {
+				padding-block-end: 15px;
+				color: grey;
+			}
+        }
+    }
+}
