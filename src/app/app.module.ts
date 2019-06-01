@@ -12,6 +12,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { TeamComponent } from './components/team/team.component';
 import { SocialComponent } from './components/social/social.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
     declarations: [
         AppComponent,
@@ -20,7 +21,8 @@ import { ContactComponent } from './components/contact/contact.component';
         ServicesComponent,
         TeamComponent,
         SocialComponent,
-        ContactComponent
+        ContactComponent,
+        FooterComponent
     ],
     imports: [
         BrowserModule.withServerTransition({ appId: 'serverApp' }),

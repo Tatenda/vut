@@ -1,0 +1,25 @@
+@import "../../../styles/all";
+.bottomContainer {
+	ul {
+		padding: 0;
+		li {
+			list-style: none;
+			margin-block-start: 30px;
+			color: $primary-color;
+			padding: 20px;
+			border-block-end: 1px solid rgb(235, 235, 235);
+
+			.headerCont {
+				h1 {
+					font-size: 22px;
+				}
+			}
+
+			.bodyCont {
+				p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
